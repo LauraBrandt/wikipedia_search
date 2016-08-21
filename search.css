@@ -1,0 +1,106 @@
+  body {
+    background:#ddd;
+    background-image: url("sandpaper_texture.png");
+  }
+  
+  h1 {
+    margin-top: 40px;
+    font-family: Georgia, serif;
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  h1 div {
+    font-size: 45px;
+    font-family: "LinLibertine", Georgia, serif;
+  }
+  
+  img {
+    display: block;
+    margin: 25px auto 45px auto;
+  }
+  
+  #random {
+    display: block;
+    width: 123px;
+    margin: 20px auto 0 auto;
+    border-radius: 25px;
+  }
+  
+  #search form {
+    position: relative;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  #search input {
+    text-indent: 25px;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+  
+  label {
+    position: absolute;
+    top: 7px;
+    left: 15px;
+  }
+  
+  @font-face {
+    font-family: "LinLibertine";
+    src: url("LinLibertine_R.woff") format('woff');
+  }
+  
+  #results a:active {
+    text-decoration: none;
+  }
+  
+  #results a:visited {
+    text-decoration: none;
+  }
+  
+  #results a:link {
+    text-decoration: none;
+  }
+  
+  #results a:hover {
+    text-decoration: none;
+  }
+  
+  #results {
+    text-align: left;
+  }
+  
+  #announceResults {
+    font-size: 20px;
+    margin-left: 7%;
+    margin-bottom: 15px;
+    font-family: "LinLibertine", Georgia, serif;
+  }
+  
+  #results a {
+    display: block;
+    margin: auto;
+    width: 86%;
+  }
+  
+  .result {
+    background: #fafafa;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  
+  .result h4 {
+    letter-spacing: 0.01cm;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .result:hover {
+    border-left: 5px solid #0645ad;
+    font-style: italic;
+    padding-left: 25px;
+  }
