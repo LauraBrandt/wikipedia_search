@@ -32,14 +32,15 @@ $(document).ready(function() {
   function formatCSS() {
     $("h1").remove();
     $("img").remove();
+    $("body").css("padding", "0 7%");
     $("#search").css("display", "inline-block");
-    $("#random").css("display", "inline-block");
-    $("#search").css("margin", "50px 0px 25px 7%");
-    $("#random").css("margin", "-50px 20px 25px 40px");
+    $("#search").css("margin", "50px 0px 25px 0"); 
+    $("#random").css("top", "30px");
+    $("#random").css("left", "calc(7% + 360px)");
     if ($(window).width()<493) {
-      $("#random").css("display", "block");
-      $("#search").css("margin", "50px 0px 0px 7%");
-      $("#random").css("margin", "20px 20px 20px 7%");
+      $("#search").css("margin-top", "50px");
+      $("#random").css("left", "7%").css("top", "80px").css("transform", "none");
+      $("#results").css("margin-top", "45px");
     }
   };
 });
