@@ -16,7 +16,7 @@ $(document).ready(function() {
       var search = data.query.search;
       for (i in search) {
         var link = "https://en.wikipedia.org/wiki/" + search[i].title;
-        html += "<a href='" + link + "' target='_blank'>";
+        html += "<a href='" + link + "' target='_blank' rel='noopener noreferrer'>";
         html += "<div class='result' style='display: none'>";
         html += "<h4>" + search[i].title + "</h4>";
         html += "<p>" + search[i].snippet + "</p>";
